@@ -7,7 +7,7 @@ import os
 
 TOKEN = os.environ.get("TOKEN", "TU_WSTAW_TOKEN")
 GUILD_ID = int(os.environ.get("GUILD_ID", "0"))
-PORT = int(os.environ.get("PORT", "10000"))
+PORT = int(os.environ.get("PORT", "8080"))
 
 intents = discord.Intents.default()
 intents.guilds = True
